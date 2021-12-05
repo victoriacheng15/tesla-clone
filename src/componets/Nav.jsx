@@ -1,12 +1,24 @@
 import React from 'react';
 import TeslaLogo from '../../assets/logo.svg';
 import Navlink from './nav/Navlink';
+import CustomButton from './button/CustomButton';
 
-import { Navbar } from './styles/navStyle';
+import { Navbar, Logo, Ulgroup } from './styles/navStyle';
 
 const Nav = () => (
   <Navbar>
-    <img src={TeslaLogo} alt="logo" />
+    <Logo>
+      <img src={TeslaLogo} alt="logo" />
+    </Logo>
+    <Ulgroup>
+      <Navlink text="text" />
+      <Navlink text="text" />
+      <Navlink text="text" />
+      <Navlink text="text" />
+      <Navlink text="text" />
+      <Navlink text="text" />
+    </Ulgroup>
+    <CustomButton text="menu" />
   </Navbar>
 );
 

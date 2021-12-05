@@ -1,10 +1,12 @@
 import React from 'react';
 
+import { FooterSection } from './styles/FooterStyle';
+
 const Footer = function () {
   return (
-    <div>
-      <h1>footer</h1>
-    </div>
+    <FooterSection>
+      <p>Cloned by Victoria</p>
+    </FooterSection>
   );
 };
 
