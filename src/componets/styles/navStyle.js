@@ -1,15 +1,14 @@
 import styled from 'styled-components';
 
 export const Navbar = styled.nav`
-  position: sticky;
+  position: fixed;
   top: 0;
-  margin: 0 auto;
-  width: min(90%, var(--max-width));
+  left: 2.5%;
+  width: min(95%, var(--max-width));
   height: 55px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: lightgrey;
 `;
 
 export const Logo = styled.div`
@@ -26,5 +25,4 @@ export const Ulgroup = styled.ul`
   @media (min-width: 900px) {
     display: flex;
   }
-
 `;

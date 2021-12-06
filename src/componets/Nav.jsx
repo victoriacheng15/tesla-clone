@@ -1,7 +1,7 @@
 import React from 'react';
 import TeslaLogo from '../../assets/logo.svg';
 import Navlink from './nav/Navlink';
-import CustomButton from './button/CustomButton';
+import MenuButton from './button/MenuButton';
 
 import { Navbar, Logo, Ulgroup } from './styles/navStyle';
 
@@ -18,7 +18,7 @@ const Nav = () => (
       <Navlink text="text" />
       <Navlink text="text" />
     </Ulgroup>
-    <CustomButton text="menu" />
+    <MenuButton text="menu" />
   </Navbar>
 );
 
