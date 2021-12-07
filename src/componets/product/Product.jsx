@@ -1,15 +1,8 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade';
 import { DownOutlined } from '@ant-design/icons';
-// import arrowDown from '../../../assets/down-arrow.svg';
+import Button from '../button/Button';
 // style
-import {
-  Section,
-  ButtonsGroup,
-  LeftBtn,
-  RightBtn,
-  Arrow,
-} from './productStyle';
+import { Section, ButtonsGroup, Arrow } from './productStyle';
 
 const Product = ({
   bgImage,
@@ -21,26 +14,24 @@ const Product = ({
   arrow,
 }) => (
   <Section bgImage={bgImage}>
-    <Fade bottom>
-      <div>
-        <h2>{title}</h2>
-        {link ? (
-          <p>
-            {descrption}
-            <a href="/something">{link}</a>
-          </p>
-        ) : (
-          <p>{descrption}</p>
-        )}
-      </div>
-      <div>
-        <ButtonsGroup>
-          <LeftBtn>{leftBtnText}</LeftBtn>
-          {rightBtnText && <RightBtn>{rightBtnText}</RightBtn>}
-        </ButtonsGroup>
-        <Arrow>{arrow && <DownOutlined />}</Arrow>
-      </div>
-    </Fade>
+    <div>
+      <h2>{title}</h2>
+      {link ? (
+        <p>
+          {descrption}
+          <a href="/something">{link}</a>
+        </p>
+      ) : (
+        <p>{descrption}</p>
+      )}
+    </div>
+    <div>
+      <ButtonsGroup>
+        <Button text={leftBtnText} />
+        {rightBtnText && <Button text={rightBtnText} />}
+      </ButtonsGroup>
+      <Arrow>{arrow && <DownOutlined />}</Arrow>
+    </div>
   </Section>
 );
 

@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
   :root {
     --max-width: 1500px;
+    --clr-font: rgb(57,60, 65);
   }
   
   *, *::before, *::after {
@@ -17,6 +18,12 @@ export const GlobalStyle = createGlobalStyle`
   body {
     line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
+    color: var(--clr-font);
+  }
+
+  img {
+    display: block;
+    width: 100%;
   }
 
   li {
@@ -27,9 +34,12 @@ export const GlobalStyle = createGlobalStyle`
     color: inherit;
     font: inherit;
     text-decoration: none;
+    text-transform: capitalize;
   }
 
   button {
+    color: inherit;
     font: inherit;
+    font-weight: 600;
   }
 `;
