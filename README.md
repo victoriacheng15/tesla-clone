@@ -19,6 +19,7 @@ This site is deployed on [Netlify](https://tesla-clone-vc.netlify.app/).
 - [Vite](https://vitejs.dev/)
 - [React](https://reactjs.org/)
 - [Styled-Components](https://styled-components.com/)
+- [Icons from Ant Design](https://ant.design/components/icon/)
 
 ## License
 
