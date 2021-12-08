@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { CloseOutlined } from '@ant-design/icons';
-import TeslaLogo from '../assets/logo.svg';
+import TeslaLogo from '../images/logo.svg';
 // components
 import Navlink from './nav/Navlink';
 import Button from './button/Button';
