@@ -4,7 +4,7 @@ export const Section = styled.section`
   padding: 5rem 0 1.5rem 0;
   width: 100%;
   height: 100vh;
-  background: ${({ bgImage }) => `url(/assets/${bgImage})`};
+  background: ${({ bgImage }) => `url(src/assets/${bgImage})`};
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
