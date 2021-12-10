@@ -1,20 +1,50 @@
-# Tesla-Clone
 
-This clone project is for the learning purpose on how react components work with props and styled-components. 
+# Tesla Clone
 
-## Getting Started
+This clone project is for the learning purpose on how react components work with props and styled-components.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+## Run Locally
 
-- use git clone or git desktop or download zip file
-- run either `yarn` or `npm install` to install dependencies that listed in package.json
-- run `yarn dev` or `npm run dev` to start the server at [http://localhost:3000](http://localhost:3000)
+Clone the project
 
-## Deployment
+```bash
+  git clone git@github.com:victoriacheng15/tesla-clone.git
+```
 
-This site is deployed on [Netlify](https://tesla-clone-vc.netlify.app/).
+Go to the project directory
 
-## Built With
+```bash
+  cd tesla-clone
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+or 
+
+```bash
+  yarn
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+or 
+
+```bash
+  yarn dev
+```
+
+## Demo
+
+[Demo](tesla-clone-vc.netlify.app/)
+
+## Tech Stack
 
 - [Vite](https://vitejs.dev/)
 - [React](https://reactjs.org/)
@@ -23,4 +53,9 @@ This site is deployed on [Netlify](https://tesla-clone-vc.netlify.app/).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Acknowledgements
+
+ - [readme.so](https://readme.so/) for create awesome readme
+ 
