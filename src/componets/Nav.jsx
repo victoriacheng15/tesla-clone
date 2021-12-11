@@ -49,10 +49,12 @@ const Nav = () => {
       <Background show={show} />
       <MobileNav show={show}>
         <Button text={<CloseOutlined />} onClick={() => showMenu()} />
-        <Navlink text="model s" />
-        <Navlink text="model 3" />
-        <Navlink text="model x" />
-        <Navlink text="model y" />
+        <div>
+          <Navlink text="model s" />
+          <Navlink text="model 3" />
+          <Navlink text="model x" />
+          <Navlink text="model y" />
+        </div>
         <Navlink text="existing inventory" />
         <Navlink text="used inventory" />
         <Navlink text="trade-in" />

@@ -100,4 +100,14 @@ export const MobileNav = styled.ul`
   a {
     font-weight: 600;
   }
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+    @media (min-width: 1200px) {
+      display: none;
+    }
+  }
 `;
