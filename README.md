@@ -3,6 +3,12 @@
 
 This clone project is for the learning purpose on how react components work with props and styled-components.
 
+## screenshot
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/35031228/145717004-9be02ab7-dc2a-45f3-a120-2b9ba8e39392.png" alt="desktop view" width="500"/>
+</div>
+
 ## Run Locally
 
 Clone the project
@@ -57,5 +63,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 
- - [readme.so](https://readme.so/) for create awesome readme
+[readme.so](https://readme.so/) for create awesome readme
  
