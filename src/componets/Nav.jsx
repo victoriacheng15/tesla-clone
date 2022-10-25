@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import { CloseOutlined } from '@ant-design/icons';
-import TeslaLogo from '../../public/images/logo.svg';
+import React, { useState } from "react";
+import { CloseOutlined } from "@ant-design/icons";
+import TeslaLogo from "../../public/images/logo.svg";
 // components
-import Navlink from './nav/Navlink';
-import Button from './button/Button';
+import Navlink from "./nav/Navlink";
+import Button from "./button/Button";
 
 // style
 import {
@@ -13,7 +13,7 @@ import {
   RightNav,
   MobileNav,
   Background,
-} from './styles/navStyle';
+} from "./styles/navStyle";
 
 const Nav = () => {
   const [show, setShow] = useState(false);

@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import { ButtonStyle } from './ButtonStyle';
+import { ButtonStyle } from "./ButtonStyle";
 
 const Button = ({ text, onClick }) => (
   <ButtonStyle type="button" onClick={onClick}>

@@ -4,7 +4,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint:check": "eslint . --ext .json,.js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --fix --ext .json,.js,.jsx,.ts,.tsx",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write ."
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
@@ -17,10 +21,13 @@
     "@vitejs/plugin-react": "^2.1.0",
     "eslint": "^8.26.0",
     "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.7.1",
     "vite": "^3.1.8"
   },
   "packageManager": "yarn@3.1.1"

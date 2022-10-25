@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Navbar = styled.nav`
   width: 100%;
@@ -24,7 +24,7 @@ export const Background = styled.section`
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(3px);
-  transform: ${({ show }) => (show ? 'translateX(0)' : 'translateX(100%)')};
+  transform: ${({ show }) => (show ? "translateX(0)" : "translateX(100%)")};
   transition: 300ms 100ms;
   z-index: 2;
 `;
@@ -87,7 +87,7 @@ export const MobileNav = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  transform: ${({ show }) => (show ? 'translateX(0)' : 'translateX(300px)')};
+  transform: ${({ show }) => (show ? "translateX(0)" : "translateX(300px)")};
   transition: 300ms;
   z-index: 3;
   overflow-y: scroll;
