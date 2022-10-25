@@ -1,4 +1,3 @@
-
 # Tesla Clone
 
 This clone project is for the learning purpose on how react components work with props and styled-components.
@@ -29,7 +28,7 @@ Install dependencies
   npm install
 ```
 
-or 
+or
 
 ```bash
   yarn
@@ -40,7 +39,8 @@ Start the server
 ```bash
   npm run dev
 ```
-or 
+
+or
 
 ```bash
   yarn dev
@@ -64,4 +64,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgements
 
 [readme.so](https://readme.so/) for create awesome readme
- 

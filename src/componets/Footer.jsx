@@ -1,7 +1,7 @@
-import React from 'react';
-import { GithubOutlined } from '@ant-design/icons';
+import React from "react";
+import { GithubOutlined } from "@ant-design/icons";
 // style
-import { FooterSection } from './styles/FooterStyle';
+import { FooterSection } from "./styles/FooterStyle";
 
 const Footer = function () {
   return (
