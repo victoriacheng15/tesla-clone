@@ -11,24 +11,24 @@
     "format:fix": "prettier --write ."
   },
   "dependencies": {
-    "@ant-design/icons": "^4.7.0",
-    "antd": "^4.23.6",
+    "@ant-design/icons": "^5.0.0",
+    "antd": "^5.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^2.1.0",
-    "eslint": "^8.26.0",
+    "@vitejs/plugin-react": "^3.0.1",
+    "eslint": "^8.31.0",
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-jsx-a11y": "^6.7.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^2.7.1",
-    "vite": "^3.1.8"
+    "prettier": "^2.8.2",
+    "vite": "^4.0.4"
   },
   "packageManager": "yarn@3.1.1"
 }
